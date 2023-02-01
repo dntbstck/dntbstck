@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    border: 3px solid crimson;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+header{
+    border: 3px solid crimson;
+    margin: 5px;
+    padding: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+.img-logo{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-otwttwy{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-neptunamari{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-renaissance{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-covers{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+@media only screen and (max-width: 390px) {
+    header{
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    .img-covers{
+        display: block;
+        justify-content: center;
+        
+    }
+
+    .wrapper{
+        width: 390px;
+        margin: 0 auto;
+    }
+    
+}
+
