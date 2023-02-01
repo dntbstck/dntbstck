@@ -5,7 +5,7 @@
 
 body{
     background-color: black;
-    border: 3px solid crimson;
+
 }
 
 .wrapper{
@@ -13,9 +13,8 @@ body{
 }
 
 header{
-    border: 3px solid crimson;
-    margin: 5px;
-    padding: 10px;
+    margin: 15px;
+    padding: 30px;
 }
 
 img{
@@ -38,6 +37,12 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.img-otwttwy:hover{
+    transform: scale(1.03);
 }
 
 .img-neptunamari{
@@ -47,6 +52,12 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.img-neptunamari:hover{
+    transform: scale(1.03);
 }
 
 .img-renaissance{
@@ -56,6 +67,12 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.img-renaissance:hover{
+    transform: scale(1.03);
 }
 
 .img-covers{
@@ -64,7 +81,28 @@ img{
     gap: 15px;
 }
 
-@media only screen and (max-width: 390px) {
+
+
+.socials{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.twitter{
+    width: 25px;
+    height: 25px;
+}
+
+.instagram{
+    width: 25px;
+    height: 25px;
+}
+
+
+@media only screen and (max-width: 412px) {
     header{
         width: 300px;
         margin: 0 auto;
@@ -73,12 +111,52 @@ img{
     .img-covers{
         display: block;
         justify-content: center;
-        
     }
 
     .wrapper{
         width: 390px;
         margin: 0 auto;
+    }
+    
+}
+
+@media only screen and (min-width: 820px) {
+    
+    header{
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .wrapper{
+        width: 820px;
+        margin: 0 auto;
+    }
+
+    .img-otwttwy{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-neptunamari{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-renaissance{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     
 }
