@@ -1,4 +1,5 @@
-## Hi
+## Hi, im Daniel !
+#### 20 years old, Student in Paris
 
 - 🌱 I’m currently learning HTML and CSS
   
