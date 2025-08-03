@@ -2,7 +2,7 @@
 #### 20 years old, Student in Paris
 
 - 🌱 I’m currently learning HTML and CSS
-- I like Music, League of Legends and creating things
+- I like music, League of Legends and creating things
   
 [![roadmap.sh](https://roadmap.sh/card/wide/67e7b7d908b58aed6c7972fd?variant=dark)](https://roadmap.sh)
 
